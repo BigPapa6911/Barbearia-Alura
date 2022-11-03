@@ -1,0 +1,99 @@
+body header, body main{
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    background: #BBBBBB;
+}
+header img{
+    padding: 20px;
+}
+header ul{
+    padding: 20px 0;
+    display: inline;
+}
+.caixa{
+    position:relative;
+    width: 940px;
+    margin: 0 auto;
+}
+nav{
+    position: absolute;
+    top: 130px;
+    right: 0;
+}
+nav li{
+    display: inline;
+    margin-left: 15px;   
+}
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: chocolate;
+    text-decoration: underline;
+}
+.cortes{
+    width: 940px;
+    margin: 0 auto;
+}
+main ul{
+ padding-top: 50px;
+ padding-bottom: 50px;
+}
+
+.cortes li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    padding-top: 50px;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    border-color: #000;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+}
+.cortes li:hover{
+    border-color: chocolate;
+}
+.cortes li:active{
+    border-color: brown;
+}
+.cortes li:hover h2{
+    font-size: 35px;
+}
+.cortes h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.cortes li:hover p{
+    font-size: 28px;
+}
+.cortes p{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+footer{
+    text-align: center;
+    background: url("bg.jpg");
+}
+footer img{
+    padding-top: 40px;
+}
+footer p{
+    color: antiquewhite;
+    padding-bottom: 20px;
+    font-size: 12px;
+    padding-top: 20px;
+}

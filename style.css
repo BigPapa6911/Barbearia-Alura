@@ -1,0 +1,168 @@
+body header, body main{
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    background: #BBBBBB;
+}
+header img{
+    padding: 20px;
+}
+header ul{
+    padding: 20px 0;
+    display: inline;
+}
+.caixa{
+    position:relative;
+    width: 940px;
+    margin: 0 auto;
+}
+nav{
+    position: absolute;
+    top: 130px;
+    right: 0;
+}
+nav li{
+    display: inline;
+    margin-left: 15px;   
+}
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: chocolate;
+    text-decoration: underline;
+}
+.banner{
+    text-align: center;
+    width: 100%;
+    background: #FEFEFE;
+}
+.principal{
+    padding: 30px;
+    margin-bottom: 30px;
+}
+.utensilios{
+    width: 150px;
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+h2 {
+    text-align: center;
+    padding: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.principal h2{
+    font-size: 50px;
+    padding-bottom: 25px;
+    font-weight: bolder;
+}
+.principal p {
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+.principal p strong{
+    font-weight: bold;
+}
+#missão{
+    font-weight: bolder;
+    font-size: 35px;
+}
+#missão em strong{
+    font-size: 30px;
+    font-style: italic;
+}
+.mapa {
+    text-align: center;
+    padding: 25px;
+    background: linear-gradient(#FEFEFE,#888888);
+}
+.mapa h3{
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 30px;
+    clear: left;
+}
+.mapa p{
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+
+.maps {
+    margin: 0 auto;
+    width: 940px;
+}
+
+.beneficios{
+    background: #888888;
+    padding: 20px;
+
+
+}
+.beneficios h3{
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 30px;
+    clear: left;
+}
+.conteudo{
+    width: 640px;
+    margin: 0 auto;
+}
+.lista{
+    display: inline-block;
+    vertical-align: top;
+    font-weight: bold;
+}
+.itens{
+    padding: 20px;
+    font-style: italic;
+
+}
+.itens:first-child{
+    font-weight: bolder;
+}
+.itens:before{
+    content: "✓";
+}
+.barba{
+    width: 60%;
+    box-shadow: 10px 10px 20px #000000;
+}
+.video{
+    text-align: center;
+    padding-top: 30px;
+
+}
+footer{
+    text-align: center;
+    background: url("bg.jpg");
+}
+footer img{
+    padding-top: 40px;
+}
+footer p{
+    color: antiquewhite;
+    padding-bottom: 20px;
+    font-size: 12px;
+    padding-top: 20px;
+}
+@media screen and (max-width: 480px){
+    .caixa, .principal, .mapa, .beneficios, .maps, .conteudo{
+        width: auto;
+    }
+    h1{
+        text-align: center;
+    }
+    nav{
+        position: static;
+    }
+    .lista, .barba{
+        width: 100%;
+    }
+}
